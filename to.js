@@ -15,7 +15,7 @@ function addToList() {
 
   
     let deleteButton = document.createElement('button');
-    deleteButton.textContent = 'X';
+    deleteButton.textContent = 'remove';
     deleteButton.className = 'delete';
     deleteButton.onclick = function() {
         list.removeChild(newItem); 
